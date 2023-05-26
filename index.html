@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EcoFlix</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -18,15 +19,16 @@
         <label for="searchBar"><i class="fa-solid fa-search text-green-50"></i></label>
         <input class="bg-transparent focus:outline-none placeholder:text-rose-50 text-rose-50 w-full" type="text" name="searchBar" id="searchBar" placeholder="Pesquise por filmes e séries...">
     </div>
+
     <div class="initialsFilms mt-4 ">
         <div class="grid place-items-center grid-cols-2">
-            <section class="cardFilms hover:bg-green-200 w-fit p-2 rounded-md flex flex-col justify-center items-center cursor-pointer">
-                <img src="./assets/Capa_Harry_Potter_e_o_Prisioneiro_de_Azkaban_(filme).webp" alt="Capa Harry Potter" class="rounded-md w-32 h-fit " id="cardFilms">
+            <section class="cardFilms hover:bg-zinc-300 w-fit p-2 rounded-md flex flex-col justify-center items-center cursor-pointer" id="cardFilms">
+                <img src="./assets/Capa_Harry_Potter_e_o_Prisioneiro_de_Azkaban_(filme).webp" alt="Capa Harry Potter" class="rounded-md w-32 h-fit " >
                 <div class="forTexts">
                     <p class="font-medium text-lg tracking-tight w-full text-center">Harry Potter</p>
                 </div>
             </section>
-            <section class="cardFilms hover:bg-green-200 w-fit p-2 rounded-md flex flex-col justify-center items-center cursor-pointer" id="cardFilms">
+            <section class="cardFilms hover:bg-zinc-300 w-fit p-2 rounded-md flex flex-col justify-center items-center cursor-pointer" id="cardFilms">
                 <img src="./assets/spd-and-furriors.jpg" alt="Capa Harry Potter" class="rounded-md w-32 h-fit ">
                 <div class="forTexts">
                     <p class="font-medium text-lg tracking-tight w-full text-center">Velozes e Furiosos 9</p>
@@ -35,31 +37,25 @@
             
     </div>
     <div class="flex items-center gap-2 ">
-        <i class="fa-solid fa-fire text-rose-600"></i>
-        <h3 class="text-2xl font-bold ">Mais assistidos na EcoFlix</h3>
+        <i class="fa-solid fa-fire text-green-600"></i>
+        <h3 class="text-2xl font-bold ">Mais assistidos</h3>
     </div>
 
     <div class="maisAssistidos mt-4 ">
         <div class="grid place-items-center grid-cols-2">
-            <section class="cardFilms hover:bg-green-200 w-fit p-2 rounded-md flex flex-col justify-center items-center cursor-pointer">
-                <img src="./assets/Capa_Harry_Potter_e_o_Prisioneiro_de_Azkaban_(filme).webp" alt="Capa Harry Potter" class="rounded-md w-32 h-fit " id="cardFilms">
+            <section class="cardFilms hover:bg-zinc-300 w-fit p-2 rounded-md flex flex-col justify-center items-center cursor-pointer">
+                <img src="./assets/5860378.webp" alt="Capa DemonSlayer" class="rounded-md w-32 h-fit " id="cardFilms">
                 <div class="forTexts">
-                    <p class="font-medium text-lg tracking-tight w-full text-center">Harry Potter</p>
+                    <p class="font-medium text-lg tracking-tight w-full text-center">Kimetsu no Yaiba</p>
                 </div>
             </section>
-            <section class="cardFilms hover:bg-green-200 w-fit p-2 rounded-md flex flex-col justify-center items-center cursor-pointer" id="cardFilms">
-                <img src="./assets/Capa_Harry_Potter_e_o_Prisioneiro_de_Azkaban_(filme).webp" alt="Capa Harry Potter" class="rounded-md w-32 h-fit ">
+            <section class="cardFilms hover:bg-zinc-300 w-fit p-2 rounded-md flex flex-col justify-center items-center cursor-pointer hover:text-teal-50" id="cardFilms">
+                <img src="./assets/250px-Alice-In-Wonderland-Theatrical-Poster.jpg" alt="Capa Harry Potter" class="rounded-md w-32 h-fit">
                 <div class="forTexts">
-                    <p class="font-medium text-lg tracking-tight w-full text-center">Harry Potter</p>
+                    <p class="font-medium text-lg tracking-tight w-full text-center">Alice in Wonderland</p>
                 </div>
             </section>
-            <section class="cardFilms hover:bg-green-200 w-fit p-2 rounded-md flex flex-col justify-center items-center cursor-pointer" id="cardFilms">
-                <img src="./assets/Capa_Harry_Potter_e_o_Prisioneiro_de_Azkaban_(filme).webp" alt="Capa Harry Potter" class="rounded-md w-32 h-fit ">
-                <div class="forTexts">
-                    <p class="font-medium text-lg tracking-tight w-full text-center">Harry Potter</p>
-                </div>
-            </section>
-            <section class="cardFilms hover:bg-green-200 w-fit p-2 rounded-md flex flex-col justify-center items-center cursor-pointer" id="cardFilms">
+            <section class="cardFilms hover:bg-zinc-300 w-fit p-2 rounded-md flex flex-col justify-center items-center cursor-pointer" id="cardFilms">
                 <img src="./assets/Capa_Harry_Potter_e_o_Prisioneiro_de_Azkaban_(filme).webp" alt="Capa Harry Potter" class="rounded-md w-32 h-fit ">
                 <div class="forTexts">
                     <p class="font-medium text-lg tracking-tight w-full text-center">Harry Potter</p>
